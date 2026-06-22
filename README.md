@@ -1,132 +1,78 @@
 ````markdown
-# 🚀 MS SQL Server Zero to Hero
+# MS SQL Server Zero to Hero
 
-Master Microsoft SQL Server from Beginner to Advanced with practical examples, outputs, explanations, and interview-oriented scenarios.
+Simple SQL Server examples from Beginner to Advanced.
 
----
-
-## ✨ Features
-
-- 📖 Beginner to Advanced
-- 💡 Real-World Examples
-- 📝 Detailed Comments
-- 📊 Query Outputs Included
-- 🎯 Interview Preparation
-- 🔥 1000+ SQL Queries
+This repository contains practical examples, outputs, explanations, and interview-oriented scenarios.
 
 ---
 
-# 📚 Topics Covered
+## What Is SQL?
 
-## Database Setup
+SQL stands for Structured Query Language.
 
-- Create Database
-- Create Table
-- Insert Data
-- Drop Table
+SQL is used to:
 
-## SELECT Queries
+- Store data
+- Retrieve data
+- Update data
+- Delete data
+- Analyze data
 
-- SELECT *
-- Column Selection
-- Aliases
-- DISTINCT
-- TOP
-- Aggregate Functions
-- String Functions
-- Date Functions
-
-## WHERE Queries
-
-- Comparison Operators
-- AND
-- OR
-- NOT
-- BETWEEN
-- IN
-- NOT IN
-- LIKE
-- IS NULL
-
-## ORDER BY
-
-- ASC
-- DESC
-- Multiple Columns
-- Alias
-- Functions
-
-## GROUP BY
-
-- COUNT()
-- SUM()
-- AVG()
-- MIN()
-- MAX()
-
-## HAVING
-
-- Aggregate Filters
-
-## CASE Expression
-
-- Simple CASE
-- Search CASE
-
-## Joins
-
-- INNER JOIN
-- LEFT JOIN
-- RIGHT JOIN
-- FULL OUTER JOIN
-- CROSS JOIN
-- SELF JOIN
-
-## Subqueries
-
-- Scalar Subquery
-- Correlated Subquery
-- EXISTS
-
-## Common Table Expressions
-
-- CTE
-- Recursive CTE
-
-## Window Functions
-
-- ROW_NUMBER()
-- RANK()
-- DENSE_RANK()
-- LEAD()
-- LAG()
-
-## Database Objects
-
-- Views
-- Stored Procedures
-- Functions
-- Triggers
-
-## Transactions
-
-- BEGIN TRANSACTION
-- COMMIT
-- ROLLBACK
-
-## Performance Tuning
-
-- Clustered Index
-- Non-Clustered Index
-- Execution Plans
-- Query Optimization
-
----
-
-# 📂 Repository Structure
+Simple meaning:
 
 ```text
-MS_SQL_Server_Zero_To_Hero
+SQL = Data + Queries + Results
+```
+
+Example:
+
+```sql
+SELECT *
+FROM Employee
+WHERE Salary > 30000;
+```
+
+---
+
+## Learning Path
+
+```text
+Database Setup
+     ↓
+SELECT
+     ↓
+WHERE
+     ↓
+ORDER BY
+     ↓
+GROUP BY
+     ↓
+HAVING
+     ↓
+CASE
+     ↓
+JOINS
+     ↓
+SUBQUERIES
+     ↓
+CTE
+     ↓
+WINDOW FUNCTIONS
+     ↓
+STORED PROCEDURES
+     ↓
+INDEXES
+     ↓
+PERFORMANCE TUNING
+```
+
+---
+
+## Project Structure
+
+```text
+MS_SQL_Server_Zero_To_Hero/
 │
 ├── 01_Database_Setup.sql
 ├── 02_Select_Queries.sql
@@ -147,25 +93,126 @@ MS_SQL_Server_Zero_To_Hero
 ├── 17_Indexes.sql
 ├── 18_Performance_Tuning.sql
 └── README.md
+```
+
+---
+
+## Topics Covered
+
+### Database Setup
+
+- Create Database
+- Create Table
+- Insert Data
+
+### SELECT Queries
+
+- SELECT *
+- DISTINCT
+- TOP
+- Aliases
+- Aggregate Functions
+
+### WHERE Queries
+
+- Comparison Operators
+- BETWEEN
+- IN
+- LIKE
+- NULL
+- AND
+- OR
+
+### ORDER BY
+
+- ASC
+- DESC
+- Multiple Columns
+
+### GROUP BY
+
+- COUNT
+- SUM
+- AVG
+- MIN
+- MAX
+
+### HAVING
+
+- Aggregate Filters
+
+### CASE
+
+- Simple CASE
+- Search CASE
+
+### JOINS
+
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL JOIN
+
+### SUBQUERIES
+
+- Scalar Subquery
+- Correlated Subquery
+
+### CTE
+
+- Common Table Expressions
+
+### WINDOW FUNCTIONS
+
+- ROW_NUMBER
+- RANK
+- DENSE_RANK
+- LEAD
+- LAG
+
+### PERFORMANCE TUNING
+
+- Clustered Index
+- Non-Clustered Index
+- Execution Plans
+- Query Optimization
+
+---
+
+## Example
+
+Query:
+
+```sql
+SELECT *
+FROM Employee
+WHERE Salary > 30000;
+```
+
+Output:
+
+```text
+EmployeeId  FullName  Salary
+1           sham      33000
+2           ram       32000
+3           bhim      43000
+...
+```
+
+---
+
+## Future Improvements
+
+- More Interview Questions
+- Real-World Scenarios
+- Advanced SQL Server Concepts
+- Execution Plans
+- Partitioning
+- Indexing Strategies
+
+---
+
+## Interview Line
+
+> I built a complete Microsoft SQL Server learning repository containing practical examples, outputs, explanations, and interview-oriented scenarios from beginner to advanced topics.
 ````
-
----
-
-# 🛠 Tools
-
-* SQL Server 2022
-* SQL Server Express
-* SQL Server Management Studio (SSMS)
-* Visual Studio Code
-* SQL Server Extension
-
----
-
-# ⭐ Support
-
-If you found this repository useful, please give it a ⭐ on GitHub.
-
-Happy Learning! 🚀
-
-```
-```
