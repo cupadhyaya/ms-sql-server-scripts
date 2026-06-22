@@ -1,4 +1,3 @@
-```sql
 /******************************************************************************
     MS SQL SERVER - SELECT QUERIES (ZERO TO HERO)
     Table Used : Employee
@@ -362,4 +361,3 @@ SELECT FullName,
             ELSE 'Low Salary'
        END AS SalaryCategory
 FROM Employee;
-```
